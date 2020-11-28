@@ -1,2 +1,2 @@
 #auto generated file 
-#auto generated file testing 
+#auto generated script for testing
