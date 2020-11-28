@@ -1,3 +1,15 @@
-print("test program for github commit automation")
-x = str(input("Enter comment for commit: "))
-y = str(input("Enter comment for commit: "))
+import os
+
+file = open("file.py", "w+")
+print(file)
+file.write("#auto generated file testing")
+file.close()
+
+f = open("file.py", "w")
+f.write("#auto generated file \n")
+f.write("#auto generated file testing ")
+f.close()
+f = open("file.py", "a+")
+f.write("#auto generated file \n")
+f.write("#auto generated file testing ")
+f.close()
